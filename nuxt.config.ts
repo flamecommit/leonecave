@@ -6,5 +6,9 @@ export default defineNuxtConfig({
   components: true,
   css: [
     '@/assets/scss/reset.scss'
-  ]
+  ],
+  target: 'static',
+  router: {
+    base: '/leonecave/'
+  }
 })
