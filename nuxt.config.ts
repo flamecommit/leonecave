@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@/assets/scss/reset.scss'
   ],
   target: 'static',
+  mode: 'universal',
   app: {
     head: {
       title: 'leonecave'
