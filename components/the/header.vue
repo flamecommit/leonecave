@@ -1,22 +1,22 @@
 <template>
   <header class="the-header">
-    <h1>logo</h1>
-    <nav>
+    <div class="visual">
+      <img src="~images/the/logo-180x180.png" alt="" />
+    </div>
+    <h1>leone_cave</h1>
+    <nav class="gnb">
       <ul>
         <li>
-          <nuxt-link to="/">home</nuxt-link>
+          <nuxt-link to="/">Home</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/artworks/about">artworks > about</nuxt-link>
+          <nuxt-link to="/artworks">Artworks</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/artworks/test">artworks > test</nuxt-link>
+          <nuxt-link to="/about">About</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/about">about</nuxt-link>
-        </li>
-        <li>
-          <nuxt-link to="/contact">contact</nuxt-link>
+          <nuxt-link to="/contact">Contact</nuxt-link>
         </li>
       </ul>
     </nav>
@@ -28,7 +28,29 @@
 
 
 <style lang="scss">
-.page-about {
+.the-header {
+  background: #000;
+  text-align: center;
   padding: 50px;
+  color: #fff;
+
+  .visual {
+    img {
+      width: 100px;
+    }
+  }
+  h1 {
+    margin-top: 12px;
+    font-size: 24px;
+  }
+  .gnb {
+    margin-top: 24px;
+
+    ul {
+      display: flex;
+      justify-content: center;
+      column-gap: 50px;
+    }
+  }
 }
 </style>
