@@ -8,6 +8,10 @@
 
 <style lang="scss">
 .root-app {
-  //
+  background: #000;
+  position: relative;
+  min-width: 360px;
+  min-height: 100vh;
+  padding-bottom: 120px;
 }
 </style>

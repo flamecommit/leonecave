@@ -10,9 +10,20 @@
 
 <style lang="scss">
 .the-footer {
-  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 50px;
+  background: #000;
   color: #fff;
+  height: 120px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  .copyright {
+    font-size: 12px;
+  }
 }
 </style>

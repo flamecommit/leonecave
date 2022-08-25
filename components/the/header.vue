@@ -3,7 +3,7 @@
     <div class="visual">
       <img src="~images/the/logo-180x180.png" alt="" />
     </div>
-    <h1>leone_cave</h1>
+    <h1>leonecave.eth</h1>
     <nav class="gnb">
       <ul>
         <li>
@@ -31,7 +31,7 @@
 .the-header {
   background: #000;
   text-align: center;
-  padding: 50px;
+  padding: 30px;
   color: #fff;
 
   .visual {

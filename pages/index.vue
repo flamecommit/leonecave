@@ -1,6 +1,6 @@
 <template>
   <main class="page-index">
-    Home
+    <img src="~images/the/home-cave.jpg" alt="">
   </main>
 </template>
 
@@ -10,6 +10,8 @@
 
 <style lang="scss">
 .page-index {
-  padding: 50px;
+  padding: 0 50px;
+  text-align: center;
+  background: #000;
 }
 </style>
