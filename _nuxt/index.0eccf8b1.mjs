@@ -1,1 +1,0 @@
-import{F as _,o as n,G as a,H as e,C as o,J as c,E as r,L as s}from"./entry.4ba82655.mjs";const d={},i={class:"page-index"},l=s("test"),u=c("br",null,null,-1),x=s("about");function f(p,m){const t=r;return n(),a("main",i,[e(t,{to:"/artworks/test"},{default:o(()=>[l]),_:1}),u,e(t,{to:"/artworks/about"},{default:o(()=>[x]),_:1})])}const k=_(d,[["render",f]]);export{k as default};
