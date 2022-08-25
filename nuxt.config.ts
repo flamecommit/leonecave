@@ -8,7 +8,9 @@ export default defineNuxtConfig({
     '@/assets/scss/reset.scss'
   ],
   target: 'static',
-  router: {
-    base: '/leonecave/'
+  app: {
+    head: {
+      title: 'leonecave'
+    }
   }
 })

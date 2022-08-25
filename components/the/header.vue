@@ -7,7 +7,10 @@
           <nuxt-link to="/">home</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/artworks/about">artworks</nuxt-link>
+          <nuxt-link to="/artworks/about">artworks > about</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="/artworks/test">artworks > test</nuxt-link>
         </li>
         <li>
           <nuxt-link to="/about">about</nuxt-link>
