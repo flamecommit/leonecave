@@ -1,0 +1,1 @@
+import{F as e,o as t,G as c,K as o}from"./entry.3e43afc1.mjs";const s=""+new URL("qrcode.4551f0d9.webp",import.meta.url).href;const n={},_={class:"page-contact"},a=o("img",{src:s,alt:""},null,-1),r=[a];function i(l,d){return t(),c("main",_,r)}const p=e(n,[["render",i]]);export{p as default};

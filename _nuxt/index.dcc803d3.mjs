@@ -1,1 +1,0 @@
-import{F as e,o as t,G as s,K as n}from"./entry.3ce320b9.mjs";const o=""+new URL("home-cave.de6413f9.jpg",import.meta.url).href;const _={},c={class:"page-index"},a=n("img",{src:o,alt:""},null,-1),r=[a];function i(d,l){return t(),s("main",c,r)}const p=e(_,[["render",i]]);export{p as default};
