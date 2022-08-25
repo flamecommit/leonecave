@@ -6,6 +6,10 @@
   </div>
 </template>
 
+<script setup>
+import 'swiper/css';
+</script>
+
 <style lang="scss">
 .root-app {
   background: #000;

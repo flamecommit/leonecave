@@ -12,5 +12,9 @@
 .page-index {
   padding: 0 50px;
   text-align: center;
+
+  img {
+    max-width: 100%;
+  }
 }
 </style>
