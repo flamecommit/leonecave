@@ -1,5 +1,5 @@
 <template>
-  <main class="page-index">
+  <main class="page-artworks">
     Artworks
   </main>
 </template>
@@ -9,7 +9,7 @@
 
 
 <style lang="scss">
-.page-index {
+.page-artworks {
   padding: 50px;
 }
 </style>

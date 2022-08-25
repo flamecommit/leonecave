@@ -12,6 +12,5 @@
 .page-index {
   padding: 0 50px;
   text-align: center;
-  background: #000;
 }
 </style>
